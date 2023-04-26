@@ -1,6 +1,6 @@
 import fetch from '@/config/fetch'
 
-
-export const list = () => fetch('/index/article/artList', 'GET');
+// 登录
+export const login = data => fetch('/index/article/login',data, 'POST');
 
 

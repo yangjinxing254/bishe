@@ -30,7 +30,7 @@ const routes = [
 		},{
 			path: '/appointment',
 			component: appointment,
-			meta: ['预约', '预约入院'],
+			meta: ['预约', '预约入城'],
 		},{
             path: '/artlist',
             component: artlist,

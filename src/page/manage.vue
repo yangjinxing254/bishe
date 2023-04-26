@@ -6,7 +6,7 @@
 					<el-menu-item index="manage"><i class="el-icon-menu"></i>首页</el-menu-item>
                     <el-submenu index="2">
                         <template slot="title"><i class="el-icon-plus"></i>预约</template>
-                        <el-menu-item index="appointment">预约入院</el-menu-item>
+                        <el-menu-item index="appointment">预约入城</el-menu-item>
                     </el-submenu>
                     <el-submenu index="3">
                         <template slot="title"><i class="el-icon-plus"></i>文章</template>

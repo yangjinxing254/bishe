@@ -6,7 +6,6 @@
 
 <script>
 import headTop from '../components/headTop'
-import {list} from "../api/getData";
 
 export default {
     data() {
@@ -15,9 +14,7 @@ export default {
     components: {
         headTop,
     },
-    async mounted() {
-        const data = await list()
-        console.log(data);
+     mounted() {
     },
     computed: {},
     methods: {}
